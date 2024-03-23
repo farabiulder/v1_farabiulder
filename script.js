@@ -6,7 +6,7 @@ window.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => {
       domcontentloadedText.style.display = "none";
     }, 200);
-  }, 2000);
+  }, 1000);
 });
 /* transform ayarla */
 const farabiulderMain = document.getElementById("farabiulder_main_inner");
@@ -63,8 +63,9 @@ farabiulderMain.addEventListener("click", () => {
     setTimeout(() => {
       domcontentloadedText.style.display = "none";
     }, 300);
-  }, 2000);
+  }, 1000);
 });
+/*
 farabiulderBubble.addEventListener("click", () => {
   // domcontentloadedText.style.width = "33.333%";
   domcontentloadedText.style.opacity = "1";
@@ -78,6 +79,8 @@ farabiulderBubble.addEventListener("click", () => {
     }, 300);
   }, 2000);
 });
+
+*/
 farabiulderShopify.addEventListener("click", () => {
   // domcontentloadedText.style.width = "33.333%";
   domcontentloadedText.style.opacity = "1";
@@ -89,5 +92,5 @@ farabiulderShopify.addEventListener("click", () => {
     setTimeout(() => {
       domcontentloadedText.style.display = "none";
     }, 300);
-  }, 2000);
+  }, 1000);
 });
