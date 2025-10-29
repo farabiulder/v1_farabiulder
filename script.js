@@ -1,13 +1,5 @@
 const domcontentloadedText = document.getElementById("domcontentloaded_text");
 
-window.addEventListener("DOMContentLoaded", () => {
-  setTimeout(() => {
-    domcontentloadedText.style.opacity = "0";
-    setTimeout(() => {
-      domcontentloadedText.style.display = "none";
-    }, 200);
-  }, 1000);
-});
 /* transform ayarla */
 const farabiulderMain = document.getElementById("farabiulder_main_inner");
 const farabiulderBubble = document.getElementById("farabiulder_bubble_inner");
