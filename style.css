@@ -1,251 +1,251 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    width: 100%;
-    overflow-x: hidden;
-    height: 100vh;
-    /* background: linear-gradient(rgba(0, 0, 0, 0.285),rgba(0, 0, 0, 0.285)),url("./duotone\ \(4\).png"); */
+body {
+  width: 100%;
+  overflow-x: hidden;
+  height: 100vh;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.285),rgba(0, 0, 0, 0.285)),url("./duotone\ \(4\).png"); */
 }
-#domcontentloaded_text{
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
-    display: grid;
-    place-items: center;
-    color: white;
-    font-size: 30px;
-    transform: translateY(0);
-    transition: 1s;
-    z-index: 2;
+#domcontentloaded_text {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  display: none;
+  place-items: center;
+  color: white;
+  font-size: 30px;
+  transform: translateY(0);
+  transition: 1s;
+  z-index: 2;
 }
-a{
-    text-decoration: none;
-    color: #fe790f;
+a {
+  text-decoration: none;
+  color: #fe790f;
 }
 img {
-    background-color: white;
-    border-radius: 50%;
-    padding: 5px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
 }
-p{
-    width: 400px;
+p {
+  width: 400px;
 }
-span{
-    font-size: 30px;
+span {
+  font-size: 30px;
 }
-header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0px 80px;
-    background-color: transparent;
-    position: absolute;
-    width: 100%;
-    z-index: 1;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 80px;
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
 }
 nav {
-    display: none;
-    background-color: transparent;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.533);
-    padding: 8px 20px;
-    border-bottom-left-radius: 50px;
-        border-bottom-right-radius: 50px;
+  display: none;
+  background-color: transparent;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.533);
+  padding: 8px 20px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 nav button {
-    font-family: "readex pro", Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    padding: 8px 20px;
-    background-color: transparent;
-    border: 2px solid #fe790f;
-    border-radius: 100px;
-    color: #fe790f;
-    cursor: pointer;
-    }
-.farabiulder_logo{
-    width: 5%;
+  font-family: "readex pro", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  padding: 8px 20px;
+  background-color: transparent;
+  border: 2px solid #fe790f;
+  border-radius: 100px;
+  color: #fe790f;
+  cursor: pointer;
+}
+.farabiulder_logo {
+  width: 5%;
 }
 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 99.9vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 99.9vh;
 }
-.container .farabiulder_main, .container .farabiulder_bubble, .container .farabiulder_shopify{
-    width: 100%;
-    display: grid;
-    height: 100%;
-    transition: 0.3s all;
-    background-color: rgba(255, 255, 255, 0.344);
-    backdrop-filter: blur(10px);
-    z-index: 0;
-    cursor: pointer;
+.container .farabiulder_main,
+.container .farabiulder_bubble,
+.container .farabiulder_shopify {
+  width: 100%;
+  display: grid;
+  height: 100%;
+  transition: 0.3s all;
+  background-color: rgba(255, 255, 255, 0.344);
+  backdrop-filter: blur(10px);
+  z-index: 0;
+  cursor: pointer;
 }
-.container .farabiulder_main{
-    background-position: center;
-    background-size: cover;
-    background-image: url("./img/duotone\ \(6\)-min.png");
+.container .farabiulder_main {
+  background-position: center;
+  background-size: cover;
+  background-image: url("./img/duotone\ \(6\)-min.png");
 }
 
 .container .farabiulder_inner {
-    /* background-color: rgb(101, 46, 0); */
-    width: 100%;
-    height: 100%;
-    display: grid;
-    align-items: center;
-    justify-content: space-around;
-    color: white;
-        font-family: "readex pro", Arial, Helvetica, sans-serif;
-        text-align: center;
-        transition: 0.2s;
+  /* background-color: rgb(101, 46, 0); */
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  font-family: "readex pro", Arial, Helvetica, sans-serif;
+  text-align: center;
+  transition: 0.2s;
 }
-.container .farabiulder_inner p{
-        transition: 0.2s;
+.container .farabiulder_inner p {
+  transition: 0.2s;
 }
 .container .farabiulder_main div {
-    color: white;
-    display: grid;
-    place-items: center;
-
+  color: white;
+  display: grid;
+  place-items: center;
 }
-.container .farabiulder_main div img{
-    width: 30%;
+.container .farabiulder_main div img {
+  width: 30%;
 }
 
-.container .farabiulder_bubble{
-    background-position: center;
-        background-size: cover;
-    background-image: url("./img/duotone\ \(7\)-min.png");
-
+.container .farabiulder_bubble {
+  background-position: center;
+  background-size: cover;
+  background-image: url("./img/duotone\ \(7\)-min.png");
 }
-.container .farabiulder_bubble div{
-    place-items: center;
-    display: grid;
+.container .farabiulder_bubble div {
+  place-items: center;
+  display: grid;
 }
 .container .farabiulder_bubble div div {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    justify-content: space-around;
-
+  justify-content: space-around;
 }
 .container .farabiulder_bubble img {
-    width: 20%;
+  width: 20%;
 }
-#shopify_logo{
+#shopify_logo {
 }
 
 .container .farabiulder_shopify {
-    background-image: url("./img/duotone\ \(8\)-min.png");
-    background-position: center;
-        background-size: cover;
+  background-image: url("./img/duotone\ \(8\)-min.png");
+  background-position: center;
+  background-size: cover;
 }
 .container .farabiulder_shopify div {
-    display: grid;
-    place-items: center;
+  display: grid;
+  place-items: center;
 }
 .container .farabiulder_shopify div div {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    justify-content: space-around;
-
+  justify-content: space-around;
 }
 
 .container .farabiulder_shopify img {
-    width: 20%;
-
+  width: 20%;
 }
 footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-top-left-radius: 100px;
-        border-top-right-radius: 100px;
-        font-family: "readex pro", Arial, Helvetica, sans-serif;
-
-
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  font-family: "readex pro", Arial, Helvetica, sans-serif;
 }
 footer p {
-    background-color: rgba(255, 255, 255, 0.497);
-        border-top-left-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.497);
+  border-top-left-radius: 20px;
 
-            border-top-right-radius: 20px;
-            padding: 10px;
-            color: white;
-            width: 50%;
-            text-align: center;
-
+  border-top-right-radius: 20px;
+  padding: 10px;
+  color: white;
+  width: 50%;
+  text-align: center;
 }
 
 @media (max-width: 500px) {
-    .container{
-        display: grid;
-    }
-    .container .farabiulder_main, .container .farabiulder_bubble, .container .farabiulder_shopify{
-        background-size: cover;
-        background-position: center;
-        width: 100%;
-        height: 100vh;
-    }
-    p{
-        width: 70%;
-    }
-    footer{
-        width: 100%;
-    }
-    footer p{
-        width: 70%;
-    }
+  .container {
+    display: grid;
+  }
+  .container .farabiulder_main,
+  .container .farabiulder_bubble,
+  .container .farabiulder_shopify {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+  }
+  p {
+    width: 70%;
+  }
+  footer {
+    width: 100%;
+  }
+  footer p {
+    width: 70%;
+  }
 }
 @media (max-width: 768px) {
-    .container{
-        display: grid;
-    }
-    .container .farabiulder_main, .container .farabiulder_bubble, .container .farabiulder_shopify{
-        background-size: cover;
-        background-position: center;
-        height: 100vh;
-        width: 100%;
-    }
-    p{
-        width: 70%;
-    }
-        footer {
-            width: 100%;
-        }
-    
-        footer p {
-            width: 70%;
-        }
+  .container {
+    display: grid;
+  }
+  .container .farabiulder_main,
+  .container .farabiulder_bubble,
+  .container .farabiulder_shopify {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+  }
+  p {
+    width: 70%;
+  }
+  footer {
+    width: 100%;
+  }
+
+  footer p {
+    width: 70%;
+  }
 }
 @media (max-width: 1200px) {
-    .container{
-        display: grid;
-    }
-    .container .farabiulder_main, .container .farabiulder_bubble, .container .farabiulder_shopify{
-        background-size: cover;
-        background-position: center;
-        height: 100vh;
-        width: 100%;
-    }
-    p{
-        width: 70%;
-    }
-        footer {
-            width: 100%;
-        }
-    
-        footer p {
-            width: 70%;
-        }
+  .container {
+    display: grid;
+  }
+  .container .farabiulder_main,
+  .container .farabiulder_bubble,
+  .container .farabiulder_shopify {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+  }
+  p {
+    width: 70%;
+  }
+  footer {
+    width: 100%;
+  }
+
+  footer p {
+    width: 70%;
+  }
 }
